@@ -1,6 +1,6 @@
 {
   "name": "videojs-vtt-thumbnails",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "Display thumnails on progress bar hover, driven by external VTT files.",
   "main": "dist/videojs-vtt-thumbnails.cjs.js",
   "module": "dist/videojs-vtt-thumbnails.es.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrisboustead/videojs-vtt-thumbnails.git"
+    "url": "https://github.com/lambdacerro/videojs-vtt-thumbnails.git"
   },
   "generator-videojs-plugin": {
     "version": "5.0.3"
@@ -52,7 +52,7 @@
     "videojs",
     "videojs-plugin"
   ],
-  "author": "Chris Boustead <chris@forgemotion.com>",
+  "author": "Lambda, Chris Boustead",
   "license": "MIT",
   "vjsstandard": {
     "ignore": [
@@ -73,8 +73,9 @@
   ],
   "dependencies": {
     "global": "^4.4.0",
-    "request": "^2.88.2",
-    "video.js": "^7.2.0 || ^6.6.0"
+  },
+  "peerDependencies": {
+    "video.js": "^8"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
